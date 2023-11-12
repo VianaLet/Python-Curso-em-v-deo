@@ -10,3 +10,12 @@ print(type(idade), type(idade_inteira))
 Altura = input('Informe sua altura: ')
 altura = float(input('Informe sua altura: '))  #A qui estarei altomaticamente convertendo o valor digitado para float
 print(type(Altura), type(altura))
+
+# > Estruturas Condicionais
+idade = int(input('Qual sua idade?'))
+if idade >= 18: {
+    print('Você é maior de idade')
+}
+else :{
+    print('Você é menor de idade')
+}
