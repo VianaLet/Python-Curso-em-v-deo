@@ -22,7 +22,7 @@ for chave in dicionario:
   print(chave)    #  Aqui ele vai percorrer pelas chaves do dicionário, no caso nome, Idade, altura, programador
 
 for chave in dicionario:
-  print(chave, dicionari[chave])  # Aqui vamos puxar o valor que tem nas chaves
+  print(chave, dicionario[chave])  # Aqui vamos puxar o valor que tem nas chaves
 
 # Testando a existência de uma chave
 print('peso' in dicionario) # Com esse comando ele vai me mostrar se tem essa chave no dicionário
