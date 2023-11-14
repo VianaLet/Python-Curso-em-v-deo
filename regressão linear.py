@@ -6,6 +6,8 @@ quadrado_x_lista = []
 quadrado_y_lista = []
 somatoria_quadrado_y = 0
 somatoria_quadrado_x = 0
+somatoria_x = sum(distancia)
+somatoria_y = sum(tempo)
 for i in range(len(distancia)):
     pares = [(distancia[i], tempo[i])]  # Aqui estou ordenando os pares das listas: distancia e tempo
     tabela = tabela + pares
@@ -18,8 +20,10 @@ for y in range(len(tempo)):                     # Preenchendo a lista de y²
 
 somatoria_quadrado_x = sum(quadrado_x_lista)    # Armazenando a somatória da lista de x²
 somatoria_quadrado_y = sum(quadrado_y_lista)    # Armazenando a somatória da lista de y²
-print(f'Tabela: {tabela}')               #Mostrando no terminal as listas ordenadas
+print(f'Tabela: {tabela}')                      # Mostrando no terminal as listas ordenadas
 print("y²: ", quadrado_y_lista)
 print("x²: ", quadrado_x_lista)
+print("Σx: ", somatoria_x)
+print("Σy: ", somatoria_y)
 print("Σx²: ", somatoria_quadrado_x)
 print("Σy²: ", somatoria_quadrado_y)
