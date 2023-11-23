@@ -43,8 +43,8 @@ a = (somatoria_xy - (somatoria_x * somatoria_y/len(distancia)))/ (somatoria_quad
 print("Coeficiente a: ",a)
 b = media_y - a * media_x
 print("Coeficiente b: ", b)
-print(f"Resultado: y = {round(a,4)}x + {round(b,4)}")
+print(f"Resultado: y = {round(a,4)}x + {round(b,4)}")   # Estou arredondando para ficar mais legível
 valor = float(input("Digite o valor que deseja prever o tempo de acordo com a relaão dessa tabela: "))
 y = a * valor + b
-print(f'O tempo em dias estimado para entrega é de: {round(y,1)}')
+print(f'O tempo em dias estimado para entrega é de: {round(y,1)}')  # Estou arredondando para ficar mais legível
 
