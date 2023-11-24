@@ -9,8 +9,8 @@ lista_qtd_x = []
 lista_qtd_y = []
 total = 0
 print(maxqtd_x, maxqtd_y)
-for i in range (maxqtd_x):
-    for j in range (maxqtd_x):    # Aqui vamos fazer os calculos com todos os números até 
+for i in range (maxqtd_x + 1):
+    for j in range (maxqtd_x+ 1):    # Aqui vamos fazer os calculos com todos os números até 
         qtd_x = i                 # Chegar na máxima de x e y, calculamos anteriormente para
         qtd_y = j                      # Não precisar colocar o for com números imensos  
         total = px*qtd_x + py*qtd_y
@@ -19,7 +19,6 @@ for i in range (maxqtd_x):
             lista_qtd_y.append(qtd_y)   # inseridas nas listas, para então podermos vizualizá-las
             print(f"Preço {produto_x}: {px} Quantidade: {lista_qtd_x}")
             print(f"Preço {produto_y}: {py} Quantidade: {lista_qtd_y}\n  Total: {total}")
-
 """
 O que irá aparecer no console:
 Preço Arroz: 2.0 Quantidade: [0, 5, 10, 15, 20, 25, 30, 35, 40, 45]
