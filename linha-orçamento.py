@@ -9,7 +9,7 @@ lista_qtd_x = []
 lista_qtd_y = []
 total = 0
 print(maxqtd_x, maxqtd_y)
-if (maxqtd_x > maxqtd_y):          # Fazendo uma pequena validação, pois se o maxqtd de y for maior o resultado final seria errado
+if (maxqtd_x > maxqtd_y):          # Fazendo uma pequena validação, pois se o maxqtd de y for maior o resultado final será incorreto
     for i in range (maxqtd_x + 1):
         for j in range (maxqtd_x + 1):    # Aqui vamos fazer os calculos com todos os números até 
             qtd_x = i                     # Chegar na máxima de x +1(pois o range vai até < maxqtd), calculamos anteriormente para
