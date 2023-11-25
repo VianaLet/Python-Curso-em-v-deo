@@ -43,7 +43,9 @@ Bem-vindo ao meu projeto pessoal. Aqui tenho insight de alguns programinhas que 
     ````
     import plotly.express as plot
    
-    #eu nomeei assim pois o px eu já havia criado uma variável, mas se quiser modificar e usar o apelido padrão da biblioteca será
-
+    ```
+    Eu nomeei assim pois o px eu já havia criado uma variável,
+    mas se quiser modificar e usar o apelido padrão da biblioteca será
+    ```
     import plotly.express as px
 
