@@ -1,6 +1,6 @@
 
 # Projeto de Análise Econômica e Estatística 💰📊
- The backgroundcolor is `#ffffff`
+
 ## Descrição do Projeto :memo:
 
 Bem-vindo ao meu projeto pessoal de análise econômica e estatística. Aqui, compartilho alguns scripts que desenvolvi para facilitar meu cotidiano como estudante de economia :books::chart_with_upwards_trend: . Ao longo da minha jornada de aprendizado em Python, pretendo atualizar este repositório, aprimorando códigos e funções criados no início do projeto.
@@ -31,9 +31,10 @@ Bem-vindo ao meu projeto pessoal de análise econômica e estatística. Aqui, co
 ## Como Usar 🛠️
 
 
+
 ### Pré-requisitos
 
-#### >[!IMPORTANT] >Certifique-se de ter:
+#### Certifique-se de ter:
 1. O [Vscode](https://code.visualstudio.com/Download) ou o [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/?section=windows) instalado em seu sistema.
 
 2. [Python](https://www.python.org/) instalado em seu sistema.
