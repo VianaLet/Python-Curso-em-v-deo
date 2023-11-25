@@ -1,5 +1,5 @@
 
-# Projeto de Análise Econômica e Estatística 💰📊
+# Projeto de Análise Econômica e Estatística :money_with_wings:📊
 
 ## Descrição do Projeto :memo:
 
