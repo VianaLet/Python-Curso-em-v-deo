@@ -1,21 +1,43 @@
-# Mesclando funções de Estatística e para análise de gráficos em Economia 💰📊
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+# Projeto de Análise Econômica e Estatística 💰📊
+ The backgroundcolor is `#ffffff`
+## Descrição do Projeto :memo:
 
-## Descrição do Projeto
-
-Bem-vindo ao meu projeto pessoal. Aqui tenho insight de alguns programinhas que crio para facilidar o meu dia a dia como estudante de economia nos cálculos e visualizações de gráficos. Ao decorrer da minha evolução na linguagem python irei atualizando esse repositório e também melhorando os códigos e funções que criei no início do projeto
+Bem-vindo ao meu projeto pessoal de análise econômica e estatística. Aqui, compartilho alguns scripts que desenvolvi para facilitar meu cotidiano como estudante de economia :books::chart_with_upwards_trend: . Ao longo da minha jornada de aprendizado em Python, pretendo atualizar este repositório, aprimorando códigos e funções criados no início do projeto.
 
 
-## Funcionalidades Principais 🌟
+## Funcionalidades Principais :mechanical_arm:🌟
 
-- **[Regressão Linear](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/regress%C3%A3o%20linear.py) :** Aqui caso os dados de certa tabela tenham uma correlação dependente conseguimos realizar previsões com a fórmula de regressão linear da estatística, por enquanto não é interativo para o usuário colocar seus próprios dados e realizar análises dinâmicas
-- **[Inclinações e Deslocamento da Linha de Orçamento](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/linha.ipynb) :** Aqui você colocará o preço de dois produtos diferentes e a renda do consumidor, para então conseguir vizualizar graficamente a fronteira de limite-renda, fazer diversos inputs(entradas de dados) mudando algum ou vários valores para ver como se comporta a linha da fronteira, se fica mais inclinada, se se desloca para direita ou esquerda e então obter seus próprios *insights*
-- **Visualizações Gráficas:** Obtenha insights visuais através de gráficos informativos.
+- ### **Regressão Linear:** [Código aqui](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/regress%C3%A3o%20linear.py)
+    
+     [:heavy_check_mark:]  Realize previsões com a fórmula de regressão linear, útil para dados tabelados com correlação dependente.
+     <br><br>
+- ### **Inclinações e Deslocamento da Linha de Orçamento:** [Código aqui](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/linha.ipynb)
+   
+   [:heavy_check_mark:] Visualize graficamente a fronteira de limite-renda ao inserir preços de dois produtos e a renda do consumidor.
+  
+   [:heavy_check_mark:] Faça diversos inputs para observar o comportamento da linha da fronteira.
+    <br><br>
+- ### **Visualizações Gráficas:**
+   
+   [:heavy_check_mark:] Obtenha insights visuais através de gráficos informativos.
+   <br><br>
 
-- **[Funções Sobre listas em Python](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/Listas-m%C3%A9todos%20e%20fun%C3%A7%C3%B5es.py) :** Saiba um pouco sobre os métodos básicos de manipular arrays(listas) em python
+- ### **Funções Sobre Listas em Python:** [Código aqui](https://github.com/VianaLet/Python-Curso-em-v-deo/blob/main/Listas-m%C3%A9todos%20e%20fun%C3%A7%C3%B5es.py)
+  
+  [:heavy_check_mark:] Explore métodos básicos de manipulação de arrays (listas) em Python.
+<br><br>
+
 ## Como Usar 🛠️
 
+
 ### Pré-requisitos
-#### Certifique-se de ter:
+
+#### >[!IMPORTANT] >Certifique-se de ter:
 1. O [Vscode](https://code.visualstudio.com/Download) ou o [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/?section=windows) instalado em seu sistema.
 
 2. [Python](https://www.python.org/) instalado em seu sistema.
@@ -23,6 +45,7 @@ Bem-vindo ao meu projeto pessoal. Aqui tenho insight de alguns programinhas que 
 3. Jupyter Notebook
 
 4. Biblioteca Plotly
+
 
 ### Instalação
 
@@ -32,7 +55,7 @@ Bem-vindo ao meu projeto pessoal. Aqui tenho insight de alguns programinhas que 
    git clone https://github.com/VianaLet/Python-Curso-em-v-deo.git
 
 1. Instalação da jupyter: No terminal do python
-    ```
+    ```python
     pip instal notebook
     
     #Ou
@@ -40,12 +63,11 @@ Bem-vindo ao meu projeto pessoal. Aqui tenho insight de alguns programinhas que 
     pip instal jupyter
 
 1. Importar a biblioteca [plotly](https://plotly.com/python/getting-started/#install):
-    ````
+    ```` python
     import plotly.express as plot
-   
-    ```
-    Eu nomeei assim pois o px eu já havia criado uma variável,
-    mas se quiser modificar e usar o apelido padrão da biblioteca será
-    ```
+    # Ou
     import plotly.express as px
 
+Eu nomeei a biblioteca como `plot` para evitar conflitos com o apelido padrão (`px`). Sinta-se à vontade para modificar conforme preferir.
+
+Espero que essas ferramentas tornem sua jornada econômica mais interessante e eficiente! Se precisar de ajuda ou encontrar problemas, [reporte um issue.](https://github.com/VianaLet/Python-Curso-em-v-deo/issues) 😊
