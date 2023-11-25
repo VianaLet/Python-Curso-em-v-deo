@@ -35,13 +35,13 @@ Bem-vindo ao meu projeto pessoal de análise econômica e estatística. Aqui, co
 ### Pré-requisitos
 
 #### Certifique-se de ter:
-1. O [Vscode](https://code.visualstudio.com/Download) ou o [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/?section=windows) instalado em seu sistema.
+1. [ ] O [Vscode](https://code.visualstudio.com/Download) ou o [Pycharm](https://www.jetbrains.com/pt-br/pycharm/download/?section=windows) instalado em seu sistema. 
 
-2. [Python](https://www.python.org/) instalado em seu sistema.
+2. [ ] [Python](https://www.python.org/) instalado em seu sistema.
 
-3. Jupyter Notebook
+3. [ ] Jupyter Notebook
 
-4. Biblioteca Plotly
+4. [ ] Biblioteca Plotly
 
 
 ### Instalação
