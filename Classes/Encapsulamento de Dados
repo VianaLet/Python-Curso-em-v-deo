@@ -1,0 +1,12 @@
+# ENCAPSULAMENTO DE DADOS
+# Uma das principais vantagens de encapsulamento de dados é a proteção dos atributos ou métodos de uma classe
+
+# Para isso precisaremos usar modificadores de acesso para alterar a visibilidade de classes, atributos e métodos
+
+Public      # Permite acesso tanto de dentro, quanto de fora de uma classe "_" na frente do nome exemplo:self.nome_
+
+Protected   # Somente classes e subclasses terão acesso ao atributo ou método "_" antes do nome exemplo: self._nome
+
+Private     # É o modificador mais restrito do densenvolvimento orientado a objetos. Ele permite
+                que somente a sua classe(onde foi definido) tenha acesso a um determinado atributo ou método
+                "__" na frente do nome exemplo: self.__nome
