@@ -28,3 +28,9 @@ print('Comprimento da lista', len(lista))  # o len vai me dizer a quantidade de 
 
 for i in range(len(lista)):  # Aqui ele vai pegar e imprimir cada ele mento na posição do índice
     print(lista[i])
+
+# List comprehension é uma forma de criar lista com uma linha de código mais curta e também com melhor desempenho
+numeros = list(range(1,101))
+
+pares_div4= [ numero for numero in numeros if (numero % 2 ==0) and (numero % 2 ==0) ]
+print(pares_div4)
